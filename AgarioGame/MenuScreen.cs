@@ -19,7 +19,7 @@ namespace AgarioGame
 
         private void playButton_Click(object sender, EventArgs e)
         {
-            Form1.ChangeScreen(this, new GameScreen());
+            Agario.ChangeScreen(this, new GameScreen());
         }
     }
 }

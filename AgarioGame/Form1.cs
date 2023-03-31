@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AgarioGame
 {
-    public partial class Form1 : Form
+    public partial class Agario : Form
     {
-        public Form1()
+        public Agario()
         {
             InitializeComponent();
         }

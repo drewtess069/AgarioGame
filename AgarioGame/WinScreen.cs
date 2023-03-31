@@ -23,7 +23,7 @@ namespace AgarioGame
 
         private void yesButton_Click(object sender, EventArgs e)
         {
-            Form1.ChangeScreen(this, new MenuScreen());
+            Agario.ChangeScreen(this, new MenuScreen());
         }
 
         private void noButton_Click(object sender, EventArgs e)

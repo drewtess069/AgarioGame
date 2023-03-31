@@ -404,7 +404,7 @@ namespace AgarioGame
                         gameOverPlayer.Play();
 
                         //Open end screen
-                        Form1.ChangeScreen(this, new GameOverScreen());
+                        Agario.ChangeScreen(this, new GameOverScreen());
 
                         //Stop game
                         gameTimer.Stop();
@@ -418,7 +418,7 @@ namespace AgarioGame
                 gameTimer.Stop();
 
                 //Change to win screen
-                Form1.ChangeScreen(this, new WinScreen());
+                Agario.ChangeScreen(this, new WinScreen());
             }
 
             Refresh();
