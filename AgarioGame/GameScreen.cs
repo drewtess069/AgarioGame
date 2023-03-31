@@ -138,7 +138,7 @@ namespace AgarioGame
             }
 
             //Create new food
-            if (timertick % 15 == 0)
+            if (timertick % 12 == 0)
             {
                 NewFood();
             }
